@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: rgb(0, 0, 0); */
+
+}
+
+body{
+    margin: auto;
+}
+#receipt-container {
+    width: 800px;
+    margin: 40px auto;
+    padding: 50px;
+    border: 3px solid #dbea14;
+    box-shadow: 0 0 10px rgba(35, 44, 165, 0.1);
+  }
+  
+  #receipt-container h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+    background-color: aqua;
+    text-align: center;
+  }
+
+  #receipt-container h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color: rgb(242, 255, 0);
+    text-align: center;
+  }
+
+  #receipt-container table,th,td{
+    width: 70%;
+    margin: 20px auto;
+    /* border: 1px solid; */
+    text-align: left;
+    padding: 5px;
+    font-size: 18px;
+  }
+  
+  #receipt-container p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px ;
+
+  }
+  
+  .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    margin-bottom: 50px;
+    font-family: "Seymour One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: large;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
